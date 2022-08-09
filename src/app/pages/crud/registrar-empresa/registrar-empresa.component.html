@@ -16,7 +16,7 @@
             value=""
             required
           />
-          <div class="invalid-feedback">El campo es requerido!</div>
+          <div class="invalid-feedback">campo obligatorio</div>
         </div>
         <div class="col-md-6">
           <label for="strRazonSocial" class="form-label">Razon Social</label>
@@ -31,7 +31,7 @@
             value="form-control"
             required
           />
-          <div class="invalid-feedback">El campo es requerido!</div>
+          <div class="invalid-feedback">Campo obligatorio</div>
         </div>
         <div class="col-md-6">
             <label for="strRFC" class="form-label">RFC</label>
@@ -46,7 +46,7 @@
               value="form-control"
               required
             />
-            <div class="invalid-feedback">El campo es requerido!</div>
+            <div class="invalid-feedback">Campo obligatorio</div>
           </div>
         <div class="col-md-6">
           <label for="strDireccion" class="form-label">Direccion</label>
@@ -72,9 +72,9 @@
               value="form-control"
               required
             />
-            <div class="invalid-feedback">El campo es requerido!</div>
+            <div class="invalid-feedback">Campo obligatorio</div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4 ">
             <label for="strPais" class="form-label">Pais</label>
             <input
               type="text"
@@ -87,7 +87,7 @@
           </div>
         <div class="col-12 text-center">
           <button class="b4" type="submit" [disabled]="forma.invalid">Registrar</button>
-          <button style="margin-left: 20px;" class="b5" type="button" (click)="limpiarForma(forma)">Limpiar</button>
+          <button style="margin-left: 20px;" class="b5" type="button" (click)="limpiarForma(forma)">Linpiar</button>
         </div>
       </form>
     </div>

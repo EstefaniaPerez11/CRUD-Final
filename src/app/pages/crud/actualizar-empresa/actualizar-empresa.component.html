@@ -16,7 +16,7 @@
             value=""
             required
           />
-          <div class="invalid-feedback">El campo es requerido!</div>
+          <div class="invalid-feedback">Campo requerido</div>
         </div>
         <div class="col-md-6">
           <label for="strRazonSocial" class="form-label">Razon Social</label>
@@ -31,10 +31,10 @@
             value="form-control"
             required
           />
-          <div class="invalid-feedback">El campo es requerido!</div>
+          <div class="invalid-feedback">Campo requerido</div>
         </div>
         <div class="col-md-6">
-            <label for="strRFC" class="form-label">RFC</label>
+            <label for="strRFC" class="form-label">RCF</label>
             <input
               #inputStrRFC="ngModel"
               type="text"
@@ -46,7 +46,7 @@
               value="form-control"
               required
             />
-            <div class="invalid-feedback">El campo es requerido!</div>
+            <div class="invalid-feedback">campo requerido</div>
           </div>
         <div class="col-md-6">
           <label for="strDireccion" class="form-label">Direccion</label>
@@ -72,7 +72,7 @@
               value="form-control"
               required
             />
-            <div class="invalid-feedback">El campo es requerido!</div>
+            <div class="invalid-feedback">Campo requerido</div>
           </div>
           <div class="col-md-6">
             <label for="strPais" class="form-label">Pais</label>
@@ -87,7 +87,7 @@
           </div>
         <div class="col-12 text-center">
           <button class="b4" type="submit" [disabled]="forma.invalid">Actualizar</button>
-          <button style="margin-left: 20px;" class="b5" type="button" (click)="limpiarForma(forma)">Limpiar</button>
+          <button style="margin-left: 20px;" class="b5" type="button" (click)="limpiarForma(forma)">Linpiar</button>
           <button style="margin-left: 20px;" class="b5" type="button" (click)="emitirActualizacion.emit()">Cancelar</button>
         </div>
       </form>

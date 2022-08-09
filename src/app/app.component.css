@@ -6,8 +6,8 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
-  font-family: 'Montserrat', sans-serif;
+  color: hwb(0 35% 65%);
+  font-family: 'Comic Sans MS', sans-serif;
 }
 .container-fluid header nav ul li a{
   color: white !important;
